@@ -1,0 +1,19 @@
+.smote-off {
+  padding: 0;
+}
+.smote-off .video-hero {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.smote-off ._8dku {
+  position: absolute;
+  right: 250px;
+  bottom: 150px;
+  z-index: 4;
+}
+.smote-off ._8dku ._7lkc {
+  border-radius: 35px;
+  height: 54px;
+  padding: 16px 24px;
+}

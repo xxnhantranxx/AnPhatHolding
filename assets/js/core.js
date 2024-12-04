@@ -1,8 +1,6 @@
 $(document).ready(function () {
     //Create variable Width Window
     var widthWindow = $(window).width();
-
-    $(".icon_logged .name").text(fullName);
     // Khởi tạo WowJs
     wow = new WOW(
         {
@@ -18,10 +16,12 @@ $(document).ready(function () {
     //Menu hover defautl
     $('.header-nav .menu-item.has-dropdown').hover(
         function () {
-            $(this).addClass('current-dropdown');
+            $(this).toggleClass('current-dropdown');
+            $('.overlay_menuhover').addClass('active');
         },
         function () {
-            $(this).removeClass('current-dropdown');
+            $(this).toggleClass('current-dropdown');
+            $('.overlay_menuhover').removeClass('active');
         }
     );
 
@@ -45,6 +45,7 @@ $(document).ready(function () {
         $('.mobile_menu .navbar-collapse').removeClass('show');
         $(this).removeClass('active');
         $('.header-inner .searchBoxTop .input-group.show-search-mobile').removeClass('active');
+        $('.seach-icon-item .toogleSearch').removeClass('active');
     });
     $('.mobile_menu .navbar-collapse .navbar-toggler').click(function () {
         $('.header-inner > .navbar-toggler').show();
