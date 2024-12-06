@@ -1,0 +1,94 @@
+.footer-wrapper .TopFooter {
+  padding-top: 50px;
+  background: linear-gradient(90deg, #084CA1 0%, #0068AD 100%);
+}
+.footer-wrapper .TopFooter .logo_footer {
+  width: 210px;
+  display: block;
+}
+.footer-wrapper .TopFooter ._3cxz {
+  border-bottom: 1px solid #58B947;
+}
+.footer-wrapper .TopFooter ._5iwi {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.footer-wrapper .TopFooter ._5iwi ._0mal {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+.footer-wrapper .TopFooter ._5iwi ._0mal ._1dsp {
+  margin-right: 12px;
+  width: 36px;
+}
+.footer-wrapper .TopFooter ._5iwi ._0mal ._8ywm {
+  flex: 1;
+}
+.footer-wrapper .TopFooter ._5iwi ._0mal ._8ywm ._1sve {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.footer-wrapper .TopFooter ._5iwi ._0mal ._8ywm ._3gcg {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-wrapper .BottomFooter {
+  padding-bottom: 50px;
+  background: linear-gradient(90deg, #084CA1 0%, #0068AD 100%);
+}
+.footer-wrapper .BottomFooter .list-menu-footer {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.footer-wrapper .BottomFooter .list-menu-footer .item {
+  list-style: none;
+  margin-right: 32px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.footer-wrapper .BottomFooter .list-menu-footer .item a {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-wrapper .BottomFooter .list-menu-footer .item a:hover {
+  color: #f1f1f1;
+}
+.footer-wrapper .BottomFooter .list-isocal {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-wrapper .BottomFooter .list-isocal .item {
+  list-style: none;
+  margin-right: 32px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.footer-wrapper .CopyRight {
+  background-color: #FFF;
+}
+.footer-wrapper .CopyRight ._0xhk {
+  text-align: center;
+  padding: 8px 15px;
+  color: #686868;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

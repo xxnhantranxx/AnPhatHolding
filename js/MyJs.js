@@ -44,4 +44,13 @@ $(document).ready(function () {
         templateResult: formatState,
         templateSelection: formatStateSingle
     });
+
+    //Hàm thông báo mẫu
+    $('.button_right_header .button-gradient').click(function(){
+        showSnackbar(
+            'Sử dụng thông báo! tại file (MyJs.js)', // nội dung thông báo
+            '<i class="fa-solid fa-triangle-exclamation"></i>', // icon fontawesome
+            'DarkOrange' // color
+        );
+    });
 });

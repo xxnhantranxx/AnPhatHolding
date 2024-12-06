@@ -57,6 +57,7 @@
     top: 5px;
     right: 5px;
     padding: 0;
+    color: #fff;
   }
   .mobile_menu > .navbar-toggler[aria-expanded=true] {
     display: none;
@@ -86,7 +87,7 @@
     justify-content: space-between;
   }
   .html_nav_position_text {
-    background: var(--Color_5);
+    background: #17479e;
     min-height: 40px;
     padding-left: 0px;
     margin-bottom: 0;
@@ -174,5 +175,15 @@
   .mobile_menu .has-child .fa-angle-down.rotate_180 {
     transform: rotate(180deg);
     transition: all 0.2s;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .button-element .button-gradient {
+    height: 30px;
+    padding: 4px 10px;
+  }
+  .button-element .button-gradient span {
+    color: #fff;
+    text-transform: capitalize;
   }
 }

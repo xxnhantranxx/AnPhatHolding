@@ -16,11 +16,11 @@ $(document).ready(function () {
     //Menu hover defautl
     $('.header-nav .menu-item.has-dropdown').hover(
         function () {
-            $(this).toggleClass('current-dropdown');
+            $(this).addClass('current-dropdown');
             $('.overlay_menuhover').addClass('active');
         },
         function () {
-            $(this).toggleClass('current-dropdown');
+            $(this).removeClass('current-dropdown');
             $('.overlay_menuhover').removeClass('active');
         }
     );

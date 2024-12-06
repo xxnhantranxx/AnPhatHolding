@@ -4,7 +4,6 @@
 	.custom-menu-mobile {
 		display: block;
 	}
-
 	.navbar-collapse {
 		position: fixed;
 		top: 0px;
@@ -67,6 +66,7 @@
 		top: 5px;
 		right: 5px;
 		padding: 0;
+        color: #fff;
 	}
 
 	.mobile_menu>.navbar-toggler[aria-expanded="true"] {
@@ -102,7 +102,7 @@
 	}
 
 	.html_nav_position_text {
-		background: var(--Color_5);
+		background: #17479e;
 		min-height: 40px;
 		padding-left: 0px;
 		margin-bottom: 0;
@@ -210,7 +210,18 @@
 
 @media only screen and (max-width: 550px) {}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .button-element{
+        .button-gradient{
+            height: 30px;
+            padding: 4px 10px;
+            span{
+                color: #fff;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 375px) {}
 

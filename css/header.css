@@ -189,7 +189,6 @@
   cursor: pointer;
 }
 .jquery-modal .toogleSearch .header-search-form-wrapper .customize-search-header .ux-search-submit {
-  background: var(--Brand-blue);
   height: 35px;
   width: 80px;
   text-align: center;
@@ -198,6 +197,7 @@
   font-weight: 500;
   font-size: 11px;
   border: none;
+  border-radius: 5px;
 }
 .jquery-modal .toogleSearch .header-search-form-wrapper .customize-search-header .flex-grow {
   flex: 1;

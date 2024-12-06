@@ -135,9 +135,6 @@ body h1 {
   font-weight: 700;
   color: #0C111D;
   font-family: Unbounded;
-  -webkit-user-select: none;
-  user-select: none;
-  -moz-user-select: none;
 }
 
 body h2 {
@@ -146,9 +143,6 @@ body h2 {
   font-weight: 700;
   color: #0C111D;
   font-family: Unbounded;
-  -webkit-user-select: none;
-  user-select: none;
-  -moz-user-select: none;
 }
 
 body h3 {
@@ -157,9 +151,6 @@ body h3 {
   font-weight: 700;
   color: #0C111D;
   font-family: Unbounded;
-  -webkit-user-select: none;
-  user-select: none;
-  -moz-user-select: none;
 }
 
 body h4 {
@@ -168,9 +159,6 @@ body h4 {
   font-weight: 700;
   color: #0C111D;
   font-family: Unbounded;
-  -webkit-user-select: none;
-  user-select: none;
-  -moz-user-select: none;
 }
 
 body h5 {
@@ -179,20 +167,10 @@ body h5 {
   font-weight: 700;
   color: #0C111D;
   font-family: Unbounded;
-  -webkit-user-select: none;
-  user-select: none;
-  -moz-user-select: none;
 }
 
 a {
   color: var(--Color_2);
-}
-
-.button,
-img {
-  -webkit-user-select: none;
-  user-select: none;
-  -moz-user-select: none;
 }
 
 .animate__animated {
@@ -387,48 +365,29 @@ input[type=number] {
 .pagination-cntt .page-numbers {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
-
 .pagination-cntt .page-numbers > li {
   position: relative;
   margin: 0;
 }
-
 .pagination-cntt .page-numbers > li .page-number {
   width: 36px;
   height: 36px;
+  border-radius: 50%;
   padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(51, 51, 51);
-  border: none !important;
-  background: none !important;
+  color: #696969;
+  font-size: 14px;
+  border: 1px solid #58B947;
   margin: 0;
   font-weight: 500;
+  margin: 0px 6px;
 }
-
-.pagination-cntt .page-numbers > li .page-number.current {
-  margin: 0px 4px;
-  color: var(--Color_6) !important;
-  background: none !important;
-  position: relative;
-}
-
-.pagination-cntt .page-numbers > li .page-number.current::after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  transform: translate(-50%, -50%) rotate(45deg);
-  border: 1px solid var(--Color_6);
-  height: 25px;
-  top: 50%;
-  left: 50%;
-}
-
-.pagination-cntt .page-numbers > li .page-number:hover {
-  color: var(--Color_2);
+.pagination-cntt .page-numbers > li .page-number:hover, .pagination-cntt .page-numbers > li .page-number.current {
+  background: #58B947;
+  color: #fff;
 }
 
 .hide {
@@ -498,4 +457,8 @@ input[type=number] {
   gap: 8px;
   background: var(--Linear-1, linear-gradient(90deg, #008356 0%, #52A949 100%));
   margin: 0;
+  border-radius: 100px;
+  width: -moz-max-content;
+  width: max-content;
+  height: 50px;
 }
