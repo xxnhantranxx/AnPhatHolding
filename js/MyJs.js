@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    var widthWindow = $(window).width();
     // Xử lý search icon
     $('.link_open_search').click(function (event) {
         event.preventDefault();
@@ -53,4 +54,9 @@ $(document).ready(function () {
             'DarkOrange' // color
         );
     });
+    if(widthWindow <= 550){
+        $('.filter-icon').on('click', function(){
+            $(this).next('.col-inner').slideToggle('fast');
+        });
+    }
 });

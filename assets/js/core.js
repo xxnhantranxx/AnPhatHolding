@@ -64,10 +64,12 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var sticky = $('.header-wrapper');
         var scroll = $(window).scrollTop();
-        var topBar = $('#top-bar').innerHeight();
-        var mainMenu = $('#masthead').innerHeight();
-        var wideNav = $('#wide-nav').innerHeight();
-        var isScroll = topBar + mainMenu + wideNav;
+        // var topBar = $('#top-bar').innerHeight();
+        // var mainMenu = $('#masthead').innerHeight();
+        var header = $('#header').innerHeight();
+        var sectionIntro = $('.smote-off').innerHeight()
+        var isScroll = header + sectionIntro;
+        // console.log(isScroll)
         if (scroll >= isScroll) {
             // sticky.addClass('stuck');
             $('.back-to-top').addClass('active');

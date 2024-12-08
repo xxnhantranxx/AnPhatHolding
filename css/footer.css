@@ -92,3 +92,50 @@
   font-weight: 400;
   line-height: normal;
 }
+.footer-wrapper .sticky-isocal {
+  display: inline-grid;
+  position: fixed;
+  bottom: 40%;
+  right: 0;
+  min-width: 60px;
+  text-align: center;
+  z-index: 999;
+}
+.footer-wrapper .sticky-isocal .list-sticky {
+  margin-bottom: 0;
+}
+.footer-wrapper .sticky-isocal .list-sticky .item {
+  list-style: none;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.footer-wrapper .sticky-isocal .list-sticky .item:last-child {
+  margin-bottom: 0;
+}
+.footer-wrapper .sticky-isocal .list-sticky .item a {
+  display: block;
+  width: 100%;
+}
+.footer-wrapper .sticky-isocal .list-sticky .item img {
+  width: auto;
+  height: auto;
+}
+.footer-wrapper .button.back-to-top {
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+.footer-wrapper .button.back-to-top img {
+  display: block;
+}
+.footer-wrapper .button.back-to-top:hover {
+  box-shadow: unset;
+}
+.footer-wrapper .button.back-to-top.active {
+  opacity: 1;
+  pointer-events: inherit;
+  transform: translateY(0);
+}

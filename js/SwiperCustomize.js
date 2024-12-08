@@ -1,6 +1,6 @@
 const SliderProduct = new Swiper('.SliderProduct', {
     loop: true, // Bật chế độ vòng lặp vô hạn
-    slidesPerView: 3,
+    slidesPerView: 1,
     // slidesPerGroup: 3,
     spaceBetween: 30,
     navigation: {
@@ -18,10 +18,18 @@ const SliderProduct = new Swiper('.SliderProduct', {
     //     clickable: true,
     // },
     breakpoints: {
+        320: { 
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        414: { 
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
         640: { 
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 0,
-         },
+        },
         768: { 
             slidesPerView: 2,
             spaceBetween: 30,
@@ -46,13 +54,13 @@ const SlideProjects = new Swiper('.SlideProjects', {
         disableOnInteraction: false,
     },
     breakpoints: {
-        640: { 
-            slidesPerView: 1,
-            spaceBetween: 0,
-         },
+        320: { 
+            slidesPerView: 2,
+            spaceBetween: 12,
+        },
         768: { 
             slidesPerView: 2,
-            spaceBetween: 30,
+            spaceBetween: 12,
          },
         1024: { 
             slidesPerView: 4,
@@ -67,6 +75,20 @@ var ThumbGallery = new Swiper(".ThumbGallery", {
     freeMode: true,
     watchSlidesProgress: true,
     direction: "vertical",
+    breakpoints: {
+        320: { 
+            slidesPerView: 4,
+            spaceBetween: 0,
+        },
+        768: { 
+            slidesPerView: 5,
+            spaceBetween: 30,
+        },
+        1024: { 
+            slidesPerView: 6,
+            spaceBetween: 4, 
+        },
+    },
 });
 var ProductGallery = new Swiper(".ProductGallery", {
     loop: true,

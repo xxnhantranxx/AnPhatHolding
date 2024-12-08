@@ -93,4 +93,51 @@
             line-height: normal;
         }
     }
+    .sticky-isocal{
+        display: inline-grid;
+        position: fixed;
+        bottom: 40%;
+        right: 0;
+        min-width: 60px;
+        text-align: center;
+        z-index: 999;
+    }
+    .sticky-isocal .list-sticky{
+        margin-bottom: 0;
+    }
+    .sticky-isocal .list-sticky .item{
+        list-style: none;
+        width: 65px;
+        height: 65px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+    .sticky-isocal .list-sticky .item:last-child{
+        margin-bottom: 0;
+    }
+    .sticky-isocal .list-sticky .item a{
+        display: block;
+        width: 100%;
+    }
+    .sticky-isocal .list-sticky .item img{
+        width: auto;
+        height: auto;
+    }
+    .button.back-to-top {
+        border: none;
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        img {
+            display: block;
+        }
+        &:hover {
+            box-shadow: unset;
+        }
+        &.active{
+            opacity: 1;
+            pointer-events: inherit;
+            transform: translateY(0);
+        }
+    }
 }

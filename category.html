@@ -222,8 +222,8 @@
             <div id="content" class="content-area">
                 <section class="heath-lek section">
                     <div class="section-bg fill wow animate__animated animate__zoomIn" data-wow-duration="500ms">
-                        <div class="video-overlay no-click fill hide-for-medium"></div>
-                        <video class="video-bg fill hide-for-medium" preload playsinline autoplay muted loop>
+                        <div class="video-overlay no-click fill"></div>
+                        <video class="video-bg fill" preload playsinline autoplay muted loop>
                             <source src="images/website/video_category_product.mp4" type="video/mp4">	
                         </video>
                         <div class="section-bg-overlay absolute fill"></div>
@@ -252,6 +252,12 @@
                     <div class="section-content relative">
                         <div class="row category-page-row">
                             <div class="col large-3 product_sidebar_cate RemovePaddingBottom">
+                                <div class="show-for-small filter-icon">
+                                    <div class="group-filter">
+                                        <i class="fa-light fa-filter"></i>
+                                    </div>
+                                    <span class="label">Filter</span>
+                                </div>
                                 <div class="col-inner">
                                     <div class="_4get">
                                         <div class="_4yee">
@@ -631,11 +637,11 @@
                         <div class="_4xqy RemovePaddingBottom col large-6 medium-6 small-12">
                             <div class="col-inner">
                                 <ul class="list-menu-footer">
-                                    <li class="item"><a href="#">Home</a></li>
-                                    <li class="item"><a href="#">All Products</a></li>
-                                    <li class="item"><a href="#">About Us</a></li>
-                                    <li class="item"><a href="#">Contact Us</a></li>
-                                    <li class="item"><a href="#">Catalogue</a></li>
+                                    <li class="item"><a href="/">Home</a></li>
+                                    <li class="item"><a href="/all-product.html">All Products</a></li>
+                                    <li class="item"><a href="/about-us.html">About Us</a></li>
+                                    <li class="item"><a href="/contact-us.html">Contact Us</a></li>
+                                    <li class="item"><a href="/Catalog.html">Catalogue</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -658,7 +664,13 @@
                     <p class="_0xhk mb-0">Copyright © 2024. Powered by Stywin Agency. All rights reserved</p>
                 </div>
             </section>
-            <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link" aria-label="Go to top"><img src="/images/back-to-top-button.png"></a>
+            <div class="sticky-isocal">
+                <ul class="list-sticky">
+                    <li class="item"><a href="/contact-us.html"><img src="/images/cart_sticky.png"></a></li>
+                    <li class="item"><a href="tel:0123456789" target="_blank"><img src="/images/phone_sticky.png"></a></li>
+                </ul>
+            </div>
+            <a href="#top" class="back-to-top button icon invert plain fixed left bottom z-1 is-outline hide-for-medium circle" id="top-link" aria-label="Go to top"><img src="/images/back-to-top-button.png"></a>
         </footer>
         <nav class="navbar navbar-expand-md navbar-light fixed-top custom-menu-mobile show-for-small">
             <div class="mobile_menu">
@@ -674,26 +686,18 @@
                                 <div class="ringring"></div>
                                 <div class="circle"></div>
                             </div>
-                            <a class="nav-link" href="#">Interior</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Exterior</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Lawn & Garden</a>
+                            <a class="nav-link" href="/all-product.html">All Products</a>
                         </li>
                         <li class="nav-item has-child">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="/about-us.html">About us</a>
                             <i class="fa-regular fa-angle-down"></i>
                             <ul class="nav-mobile-sub">
-                                <li class="menu-item"><a href="#">How it works</a></li>
-                                <li class="menu-item"><a href="#">FAQs</a></li>
-                                <li class="menu-item"><a href="#">Contact Us</a></li>
-                                <li class="menu-item"><a href="#">Blog</a></li>
+                                <li class="menu-item"><a href="/Catalog.html">Catalogue</a></li>
+                                <li class="menu-item"><a href="#">Fanpage</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Articles</a>
+                            <a class="nav-link" href="/contact-us.html">Contact us</a>
                         </li>
                     </ul>
                     <button class="navbar-toggler">
